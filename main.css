@@ -204,8 +204,8 @@ img
 
  .border-text-bottom-top
  {
-  border-bottom:2px solid #E6E6E6;
-  border-top: 2px solid  #E6E6E6;
+  border-bottom:1px solid #E6E6E6;
+  border-top: 1px solid  #E6E6E6;
   padding:48px 0 48px 0;
 
  }
@@ -228,8 +228,9 @@ img
 
  .border-text-bottom
  {
-  border-bottom:2px solid #E6E6E6;
+  border-bottom:1px solid #E6E6E6;
   padding:48px 0 48px 0;
+  font-family: Roboto;
 
  }
 
@@ -384,7 +385,14 @@ img
     display:flex;
     flex-direction: row;
     gap:42px;
+   
   }
+
+  .card-text
+  {
+    width:240px;
+  }
+
 
   .card-button-learn {
     width: 160px;
@@ -424,6 +432,28 @@ img
     width:238px;
     height:64px;
   }
+
+  
+
+.border-text-bottom-top
+ {
+  border-bottom:1px solid #E6E6E6;
+  padding:48px 0 48px 0;
+
+ }
+
+ .img-deposit
+ {
+   width:324px;
+   height:220px;
+   margin-bottom:12px;
+   border-radius: 8px;
+ }
+
+
+
+  }
+
 
 
 
